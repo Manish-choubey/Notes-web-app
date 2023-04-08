@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "server":"nodemon index.js",
+    "client":"npm start --prefix ./client"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manish-choubey/Notes-web-app.git"
+  },
+  "author": "Manish Choubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manish-choubey/Notes-web-app/issues"
+  },
+  "homepage": "https://github.com/Manish-choubey/Notes-web-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
